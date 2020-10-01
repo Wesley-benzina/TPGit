@@ -1,9 +1,0 @@
-db:
-  image: mysql:5.7
-  ports:
-    - "3306:3306"
-  environment:
-    - "MYSQL_ROOT_PASSWORD=your_root_password"
-    - "MYSQL_USER=your_user"
-    - "MYSQL_PASSWORD=your_user_password"
-    - "MYSQL_DATABASE=your_database_name"
